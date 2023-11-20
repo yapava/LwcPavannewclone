@@ -11,6 +11,12 @@
                 <identifier>libsD3</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>libsExternalWebComponent</componentName>
+                <identifier>c_libsExternalWebComponent</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
