@@ -40,7 +40,7 @@ describe('c-libs-full-calendar', () => {
     });
 
     it('loads the FullCalendar javascript and css static resources', () => {
-        const FULL_CALENDAR_JS = 'fullCalendar/main.min.js';
+        const FULL_CALENDAR_JS = 'fullCalendar/fullcalendar_v6.modified.js';
         const FULL_CALENDAR_CSS = 'fullCalendar/main.min.css';
 
         // Create component
