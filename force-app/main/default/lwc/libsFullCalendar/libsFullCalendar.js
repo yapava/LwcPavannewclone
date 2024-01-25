@@ -24,7 +24,10 @@ export default class LibsFullCalendar extends LightningElement {
 
         try {
             await Promise.all([
-                loadScript(this, FULL_CALENDAR + '/main.min.js'),
+                loadScript(
+                    this,
+                    FULL_CALENDAR + '/fullcalendar_v6.modified.js'
+                ),
                 loadStyle(this, FULL_CALENDAR + '/main.min.css')
             ]);
             this.initializeCalendar();
